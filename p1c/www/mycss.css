@@ -1,0 +1,150 @@
+body {
+	background: #EDE8E2;
+    margin: 15px;
+}
+
+table, td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+}
+
+th, td {
+    padding: 15px;
+}
+
+tr:hover{background-color:#f5f5f5}
+
+p
+{
+	color: purple;
+	font-size: 12px;
+}
+
+h1
+{
+	  color: black;
+  	padding-bottom: 10px;
+  	border-bottom: 1px solid #eee;
+}
+
+
+a:link
+{
+  	text-decoration:none; /*delete underline*/
+  	font-family: Arial;
+    font-size: 16px;
+    width: 200px;
+    overflow: hidden;
+
+}
+a:visited
+{ 
+	color:black;
+}
+a:hover 
+{ 
+	color:white;
+	text-decoration: underline;
+}
+
+
+.button {
+  background-color: gray;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.button:hover 
+{ 
+  color:white;
+  text-decoration: underline;
+}
+
+
+.back {
+    background: gray;
+    padding: 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 50px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 8px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+.dropdown:hover .dropdown-content {
+  /*background: #f2f2f2;*/
+  display: block;
+}
+
+.inputpadding {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.inputtext, .inputselect {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.inputcheckbox {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    cursor:pointer;
+}
+
+.inputsubmit {
+    width: 60%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.inputsubmit:hover {
+    background-color: #45a049;
+}
+
+.inputlongtext {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
